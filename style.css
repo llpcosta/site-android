@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(89, 224, 123);    
+}
+
+main {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 5px 5px 30px #2e562b6e;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(89, 194, 89), rgb(64, 145, 68), rgb(35, 87, 46));
+    margin: -30px -10px 0px -10px;
+    padding-bottom: 10px;
+    
+}
+
+header > h1, aside {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header > h1 {
+    font-family: 'Roboto Condensed','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 152, 0);
+}
+
+p > a {
+    text-decoration: none;
+    color: green;
+}
+
+nav > a:visited {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-indent: 30px;
+    height: 3em;
+    margin: 5px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+main > h1 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: rgb(1, 105, 1);
+}
+
+h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: rgb(1, 105, 1);
+    background-image: linear-gradient(to right, rgba(125, 197, 125, 0.493), white 70%);
+    padding-left: 10px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.video {
+    margin-left: -20px;
+    padding: 20px 120px;
+    margin-right: -20px;
+    margin-top: 20px;
+    background-color: rgb(1, 74, 1);
+}
+
+.janela {
+    display: block;
+    background-color: rgba(130, 223, 130, 0.577);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin-top: -19px;
+}
+
+h3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 20px;   
+    border-top-left-radius: 20px;
+}
+
+.fim {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+footer > p {
+    text-align: center;
+    background-color: rgb(1, 74, 1);
+    color: white;
+    margin: 0px -9px -9px -9px;
+    font-style: italic;
+    padding: 10px;
+    height: 20%;
+}
+
+li {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.lista1, .lista2 {
+    display: inline-block;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    
+}
+
+ul {
+    width: 48%;
+}
+
+
+
+
+
